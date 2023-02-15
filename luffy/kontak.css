@@ -1,0 +1,76 @@
+body {
+    background: rgb(126, 244, 234);
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    position: sticky;
+    }
+    hr {
+    border:0;
+    background:#dedede;
+    height:1px;
+    }
+    header{
+    text-align: center;
+    color: #232323;
+    }
+    header .judul{
+    font-size: 17pt;
+    }
+    header .deskripsi{
+    font-size: 11pt;
+    }
+    .wrap {
+    width: 1000px;
+    margin:5px auto;
+    }
+    nav.menu ul {
+    position: sticky;
+    overflow:hidden;
+    list-style:none;
+    padding: 0px;
+    width: 1000px;
+    margin:0;
+    background: #11ec41;
+    }
+    nav.menu ul a:hover {
+    text-decoration: underline;
+    background:#16a085;
+    }
+    nav.menu ul li {
+    margin:0;
+    float:left;
+    }
+    nav.menu ul a {
+    padding:25px;
+    display:block;
+    font-weight:600;
+    font-size: 16px;
+    color:rgb(11, 9, 9);
+    text-decoration: none;
+    }
+    input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(7, 7, 9);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+    }
+    input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    input[type=submit]:hover {
+    background-color: #45a049;
+    }
+    .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    
+    }
